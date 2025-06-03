@@ -66,11 +66,11 @@ RSpec.describe 'Numbers Exercises' do
 
   describe 'even exercise' do
 
-    xit 'returns true when the number is even' do
+    it 'returns true when the number is even' do
       expect(even?(6)).to eq(true)
     end
 
-    xit 'returns false when the number is not even' do
+    it 'returns false when the number is not even' do
       expect(even?(5)).to eq(false)
     end
   end

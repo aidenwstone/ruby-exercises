@@ -35,6 +35,7 @@ end
 
 def even?(number)
   # return true if the number is even (hint: use integer's even? method)
+  number.even?
 end
 
 def odd?(number)
