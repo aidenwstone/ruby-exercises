@@ -30,7 +30,7 @@ RSpec.describe 'Numbers Exercises' do
 
   describe 'division exercise' do
 
-    xit 'divides two numbers' do
+    it 'divides two numbers' do
       expect(divide(25, 5)).to eq(5)
     end
   end
