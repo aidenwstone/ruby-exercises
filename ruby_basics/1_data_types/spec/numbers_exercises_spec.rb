@@ -37,11 +37,11 @@ RSpec.describe 'Numbers Exercises' do
 
   describe 'modulus exercise' do
 
-    xit 'returns the remainder using modulo' do
+    it 'returns the remainder using modulo' do
       expect(remainder(25, 5)).to eq(0)
     end
 
-    xit 'returns the remainder when it is not 0' do
+    it 'returns the remainder when it is not 0' do
       expect(remainder(13, 5)).to eq(3)
     end
   end
