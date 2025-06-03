@@ -30,6 +30,7 @@ end
 
 def string_to_number(string)
   # return the result of converting a string into an integer
+  string.to_i
 end
 
 def even?(number)
