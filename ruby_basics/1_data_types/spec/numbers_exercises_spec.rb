@@ -23,8 +23,7 @@ RSpec.describe 'Numbers Exercises' do
 
   describe 'multiplication exercise' do
 
-    # remove the 'x' from the line below to unskip the test
-    xit 'multiplies two numbers' do
+    it 'multiplies two numbers' do
       expect(multiply(5, 5)).to eq(25)
     end
   end
