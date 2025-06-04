@@ -66,6 +66,7 @@ end
 
 def include?(array, value)
   # return true if the array includes the value
+  array.include?(value)
 end
 
 def join(array, separator)
