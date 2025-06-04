@@ -20,6 +20,7 @@ end
 
 def add_element(array)
   # add an element (of any value) to the array
+  array << nil
 end
 
 def remove_last_element(array)
