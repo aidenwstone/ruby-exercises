@@ -10,8 +10,7 @@ RSpec.describe 'Hash Exercises' do
       expect(favorite).to eq(result)
     end
     
-    # remove the 'x' from the line below to unskip the test
-    xit 'returns result with an array and hash' do
+    it 'returns result with an array and hash' do
       favorite = create_favorite_hash(['orange', 'green'], { lucky: 7 })
       result = { color: ['orange', 'green'], number: { lucky: 7 } }
       expect(favorite).to eq(result)
