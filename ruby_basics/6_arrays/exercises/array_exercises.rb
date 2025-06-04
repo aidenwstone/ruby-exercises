@@ -10,6 +10,7 @@ end
 
 def third_element(array)
   # return the third element of the array
+  array[2]
 end
 
 def last_three_elements(array)
