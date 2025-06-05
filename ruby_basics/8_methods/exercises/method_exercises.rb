@@ -2,11 +2,10 @@
 # To gain more familiarity, look up the documentation for each hint.
 # Remember to unskip the corresponding tests one at a time.
 
-# method name: #ascii_translator
-# parameter: number (an integer)
-# return value: the number's ASCII character (https://www.ascii-code.com/)
-# hint: use Integer#chr
-
+# Return a number's ASCII character
+def ascii_translator(number)
+  number.chr
+end
 
 # method name: #common_sports
 # parameters: current_sports and favorite_sports (both arrays)

@@ -9,12 +9,11 @@ RSpec.describe 'Method Exercises' do
       expect(ascii_translator(65)).to eq('A')
     end
 
-    # remove the 'x' from the line below to unskip the test
-    xit 'returns a lowercase z' do
+    it 'returns a lowercase z' do
       expect(ascii_translator(122)).to eq('z')
     end
 
-    xit 'returns an exclamation mark' do
+    it 'returns an exclamation mark' do
       expect(ascii_translator(33)).to eq('!')
     end
   end
