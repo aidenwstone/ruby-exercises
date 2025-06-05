@@ -7,11 +7,10 @@ def ascii_translator(number)
   number.chr
 end
 
-# method name: #common_sports
-# parameters: current_sports and favorite_sports (both arrays)
-# return value: an array containing items in both arrays
-# hint: use Array#intersection
-
+# Return an array containing items in both arrays
+def common_sports(current_sports, favorite_sports)
+  current_sports.intersection(favorite_sports)
+end
 
 # method name: #alphabetical_list
 # parameter: games (an array)
