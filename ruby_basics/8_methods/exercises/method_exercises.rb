@@ -22,12 +22,11 @@ def lucky_number(number = 7)
   "Today's lucky number is #{number}"
 end
 
-# method name: #ascii_code
-# parameter: character (a string)
-# return value: the character's ordinal number
-# explicit return value: 'Input Error' if character's length does not equal 1
-# hint: use String#ord
-
+# Return the character's ordinal number
+def ascii_code(character)
+  return 'Input Error' if character.length != 1
+  character.ord
+end
 
 # method name: #pet_pun
 # parameter: animal (a string)
