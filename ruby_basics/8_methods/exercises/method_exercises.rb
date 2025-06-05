@@ -12,11 +12,10 @@ def common_sports(current_sports, favorite_sports)
   current_sports.intersection(favorite_sports)
 end
 
-# method name: #alphabetical_list
-# parameter: games (an array)
-# return value: games, alphabetically sorted and duplicates removed
-# hint: chain Array#uniq and Array#sort together
-
+# Return games, alphabetically sorted and duplicates removed
+def alphabetical_list(games)
+  games.uniq.sort
+end
 
 # method name: #lucky_number
 # parameter: number (an integer) with default value of 7
