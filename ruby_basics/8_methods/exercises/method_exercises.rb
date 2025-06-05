@@ -28,14 +28,17 @@ def ascii_code(character)
   character.ord
 end
 
-# method name: #pet_pun
-# parameter: animal (a string)
-# return value: nil
-# console output: if animal is 'cat', 'Cats are purr-fect!' (perfect)
-# console output: if animal is 'dog', 'Dogs are paw-some!' (awesome)
-# console output: otherwise, "I think <animal>s have pet-tential!" (potential)
-# hint: use puts
-
+# Output a pet pun depending on what <animal> is provided
+def pet_pun(animal)
+  case animal
+  when 'cat'
+    puts 'Cats are purr-fect!'
+  when 'dog'
+    puts 'Dogs are paw-some!'
+  else
+    puts "I think #{animal}s have pet-tential!"
+  end
+end
 
 # method name: #twenty_first_century?
 # parameter: year (an integer)
