@@ -4,6 +4,7 @@
 # Once this test fails, have a look at the Stack Trace
 # Try to see if you can work your way from the last line, the bottom of the stack
 # To the top, the first line, where the error occurred, and ONLY THEN fix the error
+require 'pry-byebug'
 
 def decrement_smallest_value(nested_array)
   smallest_value = nested_array.flatten.max
@@ -51,6 +52,6 @@ end
 
 def yell_greeting(string)
   name = string
-  name = name.downcase
+  name = name.upcase
   greeting = "WASSAP, #{name}!"
 end
