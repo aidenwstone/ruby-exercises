@@ -13,8 +13,7 @@ RSpec.describe 'Basic Enumerable Exercises' do
       display_current_inventory(fruit)
     end
 
-    # remove the 'x' from the line below to unskip the test
-    xit 'outputs item without quantity when value is nil' do
+    it 'outputs item without quantity when value is nil' do
       expect($stdout).to receive(:puts).with("pineapples, quantity: ")
       fruit = { pineapples: nil }
       display_current_inventory(fruit)
