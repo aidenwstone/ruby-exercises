@@ -1,3 +1,5 @@
+require 'pry-byebug'
+
 def coffee_drink?(drink_list)
   # use #include? to return true when the drink_list (array) contains the string "coffee" or "espresso"
   drink_list.include?("coffee") || drink_list.include?("espresso")
@@ -20,4 +22,5 @@ end
 
 def valid_scores?(score_list, perfect_score)
   # use #one? to return true when only one value in the score_list (hash) is equal to the perfect_score (number)
+  score_list.one? { |item, score| score == perfect_score }
 end
